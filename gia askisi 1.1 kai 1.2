@@ -1,0 +1,10 @@
+| Aspect          | ASK-1.1.cpp (Individual vars)     | ASK-1.2-2.cpp (Vector)                              |
+| --------------- | --------------------------------- | --------------------------------------------------- |
+| Code length     | 486 chars                         | 367 chars (25% shorter) ASK-1.1.cpp+1               |
+| Logic           | 4 nested ifs, compares every pair | Single loop, 1 comparison per element ASK-1.1.cpp+1 |
+| Scalability     | Can't handle 5+ numbers easily    | Works for any size with minor change ASK-1.2-2.cpp​ |
+| Maintainability | Hard to modify/add cases          | Easy to understand/modify ASK-1.2-2.cpp​            |
+| Performance     | More comparisons (6+ per run)     | Exactly 3 comparisons ASK-1.2-2.cpp​                |
+
+
+ASK-1.2-2.cpp (vector version) is better than ASK-1.1.cpp because it's 25% shorter, uses a scalable single loop instead of repetitive nested ifs, performs fewer comparisons, and follows modern C++ practices while being easier to maintain and extend.
