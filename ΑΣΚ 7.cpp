@@ -2,7 +2,6 @@
 using namespace std;
 int main() {
     int a,d;
-    cin>>a;
     if(a==0){
         d=1;
     }
@@ -13,6 +12,5 @@ int main() {
         }
         while(a!=0);
     }
-    cout<<d;
     return 0;
 }
