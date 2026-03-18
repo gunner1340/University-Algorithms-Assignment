@@ -7,4 +7,4 @@
 | Performance     | More comparisons (6+ per run)     | Exactly 3 comparisons ASK-1.2-2.cpp​                |
 
 
-ASK-1.2-2.cpp (vector version) is better than ASK-1.1.cpp because it's 25% shorter, uses a scalable single loop instead of repetitive nested ifs, performs fewer comparisons, and follows modern C++ practices while being easier to maintain and extend.
+ASK-1.1.cpp (vector version) is better than ASK-1.cpp because it's 25% shorter, uses a scalable single loop instead of repetitive nested ifs, performs fewer comparisons, and follows modern C++ practices while being easier to maintain and extend.
